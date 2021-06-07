@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;600;800&display=swap');
+body{
+background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+ background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+}
+#root{
+    background:white;
+    padding:20px;
+    text-align: center;
+    max-width: 250px;
+    margin:0 auto;
+    border-radius: 10px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  0 12.5px 10px rgba(0, 0, 0, 0.035),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+}
+h1{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+h2{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    max-width: 100px;
+    border-radius: 100px;
+    color:white;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+.plus, .minus, .reset{
+    font-size: 20px;
+    font-weight: 200;
+    color:white;
+    border:none;
+    padding:6px;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+.plus{
+    background:#f35c3b;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left:10px;
+    padding-right:10px;
+    
+}
+.reset{
+    background:#b34b34;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+.minus{
+       background:#f35c3b;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.plus:hover, .minus:hover, .reset:hover{
+cursor:pointer;
+opacity: .5;
+}
